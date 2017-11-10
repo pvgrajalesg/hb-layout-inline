@@ -6,6 +6,8 @@
 
 h1 {
     color: blue;
+    text-align: center;
+    font-size: 30px;
 }
 
 .inline-container {
@@ -76,9 +78,16 @@ h1 {
   }
 
   @media (max-width:500px){
-    .inline-container {
+    .inline-container .container2 .container21 {
       display: block;
       width: 100%;
+      margin-top: 20px;
+    }
+
+    .inline-container .container3 .container31{
+      display: block;
+      width: 100%;
+      margin-top: 20px;
     }
   }
 
